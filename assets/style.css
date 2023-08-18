@@ -1,0 +1,98 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+    background-color: black;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: linear-gradient(90deg, rgb(204, 181, 190), rgb(29, 24, 75));
+    background-size: cover;
+  }
+  
+  .quiz-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+  }
+  
+  .quiz-title {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #000000;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .quiz-card {
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .question {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #1f1e1e;
+  }
+  
+  .choices button {
+    display: block;
+    margin: 10px auto;
+    padding: 12px 24px;
+    font-size: 18px;
+    border: none;
+    background-color: #51c9f8;
+    color: rgb(241, 239, 239);
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 300px;
+    transition: background-color 0.2s;
+  }
+  
+  .choices button:hover {
+    background-color: #0d9eff;
+  }
+  
+  .feedback {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #e66253;
+  }
+  
+  .info-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .timer,
+  .score {
+    font-size: 18px;
+    font-weight: bold;
+    color: #080606;
+  }
+  
+  .restart-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .restart-button:hover {
+    background-color: #c0392b;
+  }
+  
